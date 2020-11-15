@@ -16,5 +16,6 @@ return [
     'failed' => 'No existe coincidencia con los datos ingresados.',
     'password' => 'La contraseña es incorrecta.',
     'throttle' => 'Tiene demaciados intentos de ingreso fallidos. Por favor intente ingresar en  :seconds segundos.',
+    'forgotMessage'=>'Hola Mundo'
 
 ];

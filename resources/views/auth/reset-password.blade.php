@@ -3,6 +3,7 @@
         <x-slot name="logo">
             <x-jet-authentication-card-logo />
         </x-slot>
+        <h3 class="text-center">{{env('APP_NAME')}}</h3>
 
         <x-jet-validation-errors class="mb-4" />
 

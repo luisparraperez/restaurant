@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5ffeddd-4cb5-4e5e-a8da-d7559a636c1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/lang/es/pagination.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/es/passwords.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/laravel/jetstream/resources/views/components/validation-errors.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/resources/views/components/validation-errors.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Actions/Fortify/CreateNewUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Actions/Fortify/CreateNewUser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/es/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/es/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/forgot-password.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/forgot-password.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/reset-password.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/reset-password.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/two-factor-challenge.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/two-factor-challenge.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/verify-email.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/verify-email.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,6 +157,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/lang/es" />
   </component>
@@ -175,7 +183,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605462854328</updated>
       <workItem from="1605462859439" duration="25000" />
-      <workItem from="1605462887690" duration="532000" />
+      <workItem from="1605462887690" duration="3607000" />
     </task>
     <servers />
   </component>
@@ -187,9 +195,9 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605462881923" />
-    <state x="2587" y="255" width="586" height="530" key="find.popup" timestamp="1605462997513">
+    <state x="2587" y="255" width="586" height="530" key="find.popup" timestamp="1605466236414">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2587" y="255" width="586" height="530" key="find.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605462997513" />
+    <state x="2587" y="255" width="586" height="530" key="find.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605466236414" />
   </component>
 </project>

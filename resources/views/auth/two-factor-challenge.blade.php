@@ -3,6 +3,7 @@
         <x-slot name="logo">
             <x-jet-authentication-card-logo />
         </x-slot>
+        <h3 class="text-center">{{env('APP_NAME')}}</h3>
 
         <div x-data="{ recovery: false }">
             <div class="mb-4 text-sm text-gray-600" x-show="! recovery">
