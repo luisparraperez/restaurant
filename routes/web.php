@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,6 +16,10 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [App\Http\Controllers\publico\inicio::class,'index']);
 
-Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
-    return Inertia\Inertia::render('Dashboard');
+Route::middleware(['auth:sanctum', 'verified'])->get('/cliente', function () {
+    dd( auth()->user()->tipo_usuarios->descripcion);
+})->name('dashboard');
+
+Route::middleware(['auth:sanctum', 'verified','validaTipoUsuario'])->get('/dashboard', function () {
+    dd( auth()->user()->tipo_usuarios->descripcion);
 })->name('dashboard');

@@ -60,4 +60,9 @@ class User extends Authenticatable
     protected $appends = [
         'profile_photo_url',
     ];
+
+    public function tipo_usuarios(){
+        //var_dump($this->belongsTo('App\Models\Administracion\tipo_usuarios'));
+        return $this->belongsTo('App\Models\Administracion\tipo_usuarios');
+    }
 }

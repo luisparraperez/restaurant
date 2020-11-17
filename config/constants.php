@@ -1,0 +1,8 @@
+<?php
+
+
+return [
+  'TIPO_USUARIOS_ADMIN'=>2,
+  'TIPO_USUARIOS_CLIENTE'=>1,
+  'TIPO_USUARIOS_TRABAJADOR'=>3,
+];
