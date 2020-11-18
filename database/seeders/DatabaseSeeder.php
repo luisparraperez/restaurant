@@ -30,11 +30,15 @@ class DatabaseSeeder extends Seeder
         DB::table('modulos')->insert([
             'descripcion' => 'Gestión',
             'clase_icono' => '',
+            'activo' => 'S',
+
             'created_at' => date('Y-m-d H:m:s'),
         ]);
         DB::table('modulos')->insert([
             'descripcion' => 'Menú',
             'clase_icono' => '',
+            'activo' => 'S',
+
             'created_at' => date('Y-m-d H:m:s'),
         ]);
         // \App\Models\User::factory(10)->create();
