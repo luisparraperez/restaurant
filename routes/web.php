@@ -20,6 +20,5 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/cliente', function () {
     dd( auth()->user()->modulos);
 })->name('dashboard');
 
-Route::middleware(['auth:sanctum', 'verified','validaTipoUsuario'])->get('/dashboard', function () {
-    dd( auth()->user()->tipo_usuarios->descripcion);
-})->name('dashboard');
+Route::middleware(['auth:sanctum', 'verified','validaTipoUsuario'])
+->get('/dashboard',[App\Http\Controllers\administracion\modulo::class,'seleccionar'] )->name('dashboard');

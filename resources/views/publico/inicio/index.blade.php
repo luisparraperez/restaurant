@@ -15,15 +15,7 @@
 </head>
 <body>
 
-<nav class="navbar-dark bg-dark">
-<ul class="nav justify-content-left">
-<div class="container">
-<li class="nav-item">
-<a class="navbar-brand" href="#">{{$app}}</a></li> 
-
-</ul>
-</div>
-</nav>
+@include('layouts.base.nav')
 
     <div class="container" style="margin-top:10px;">
     <div class="well well-lg">
