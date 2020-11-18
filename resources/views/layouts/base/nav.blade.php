@@ -18,8 +18,13 @@
           {{substr(auth()->user()->name,0,1).''.substr(auth()->user()->apellido_paterno,0,1)}}
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
+        <form method="#" class="text-center" action="/">
+                @csrf
+
+                <button type="submit" class="">
+                <i class="fas fa-user-cog"></i> {{ __('Configuración') }}
+                </button>
+            </form>
           <div class="dropdown-divider"></div>
           <form method="POST" class="text-center" action="{{ route('logout') }}">
                 @csrf
