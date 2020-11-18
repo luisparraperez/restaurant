@@ -27,6 +27,16 @@ class DatabaseSeeder extends Seeder
             'descripcion' => 'Trabajador',
             'created_at' => date('Y-m-d H:m:s'),
         ]);
+        DB::table('modulos')->insert([
+            'descripcion' => 'Gestión',
+            'clase_icono' => '',
+            'created_at' => date('Y-m-d H:m:s'),
+        ]);
+        DB::table('modulos')->insert([
+            'descripcion' => 'Menú',
+            'clase_icono' => '',
+            'created_at' => date('Y-m-d H:m:s'),
+        ]);
         // \App\Models\User::factory(10)->create();
     }
 }

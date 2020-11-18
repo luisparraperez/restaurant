@@ -65,4 +65,10 @@ class User extends Authenticatable
         //var_dump($this->belongsTo('App\Models\Administracion\tipo_usuarios'));
         return $this->belongsTo('App\Models\Administracion\tipo_usuarios');
     }
+
+    public function modulos(){
+        return $this->belongsToMany('App\Models\Modulo')->using('App\Models\Modulo_user')->wherePivot('activo', 'S');
+        ;
+        //return $this->hasManyThrough('App\Models\Modulo', 'App\Models\Modulo_user');
+    }
 }
