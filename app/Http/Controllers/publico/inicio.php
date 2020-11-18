@@ -20,6 +20,6 @@ class inicio extends Controller
         $platos[]=['nombre'=>'Huevos c/u','descripcion'=>'','precio'=>number_format(300,0,'','.')];
 
 
-        return view('publico.inicio.index',['app'=>env('APP_NAME'),'platos'=>$platos]);
+        return view('publico.inicio.index',['platos'=>$platos]);
     }
 }
