@@ -8,4 +8,10 @@ use Illuminate\Database\Eloquent\Model;
 class Modulo extends Model
 {
     use HasFactory;
+
+    public function menus(){
+        return $this->hasMany('App\Models\Administracion\menu');
+    }
 }
+
+

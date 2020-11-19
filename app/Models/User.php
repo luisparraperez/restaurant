@@ -69,6 +69,5 @@ class User extends Authenticatable
     public function modulos(){
         return $this->belongsToMany('App\Models\Modulo')->using('App\Models\Modulo_user')->wherePivot('activo', 'S');
         ;
-        //return $this->hasManyThrough('App\Models\Modulo', 'App\Models\Modulo_user');
     }
 }

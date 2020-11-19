@@ -66,6 +66,13 @@ class DatabaseSeeder extends Seeder
             'created_at' => date('Y-m-d H:m:s'),
         ]);
 
+        DB::table('menus')->insert([
+            'modulo_id' => 1,
+            'ruta'=>'permisos_usuario',
+            'texto'=>'Permiso Usuarios',
+            'created_at' => date('Y-m-d H:m:s'),
+        ]);
+
 
         // \App\Models\User::factory(10)->create();
     }
