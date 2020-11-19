@@ -22,16 +22,7 @@
             @if ($i%4==0)
             <div class="row" style="margin-bottom:30px;">
             @endif
-            <div class="col-xs-12 col-md-6 col-sm-6 col-lg-3">
-                <div class="card border-info mb-3" style="max-width: 18rem;">
-  
-                <div class="card-body text-info text-center">
-                    <i class="{{ $modulo->clase_icono }} fa-5x"> </i>
-                    <h3 class="card-text">{{ $modulo->descripcion }}</h3>
-                </div>
-  <div class="card-footer bg-transparent border-info text-center textinfo"><button type="button" class="btn btn-info btn-lg btn-block"><i class="fas fa-sign-in-alt"></i> Ingresar</button></div>
-</div>
-</div>
+            <x-tarjeta-modulo descripcion="{{$modulo->descripcion}}" clase="{{$modulo->clase_icono}}" ruta="{{$modulo->ruta}}" />
         @if (($i+1)%4==0)
           </div>
           @endif

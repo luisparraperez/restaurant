@@ -16,6 +16,15 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [App\Http\Controllers\publico\inicio::class,'index']);
 
+Route::middleware(['auth:sanctum', 'verified','validaPermisoModulo'])->get('menu', function () {
+    return "hola";
+})->name('menu');
+
+Route::middleware(['auth:sanctum', 'verified','validaPermisoModulo'])->get('gestion', function () {
+    return "hola";
+})->name('gestion');
+
+
 Route::middleware(['auth:sanctum', 'verified'])->get('/cliente', function () {
     dd( auth()->user()->modulos);
 })->name('dashboard');

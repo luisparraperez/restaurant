@@ -18,6 +18,7 @@ class CreateModulosTable extends Migration
             $table->string('descripcion','255');
             $table->string('clase_icono','255');
             $table->enum('activo', ['S', 'N']);
+            $table->string('ruta','255');
             $table->timestamps();
         });
     }

@@ -29,6 +29,6 @@ class CreateModuloUserTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('modulo_users');
+        Schema::dropIfExists('modulo_user');
     }
 }
