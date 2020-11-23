@@ -58,7 +58,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $appends = [
-        'profile_photo_url',
+        'profile_photo_url','modulo_actual_id','modulo_actual_descripcion'
     ];
 
     public function tipo_usuarios(){

@@ -16,13 +16,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [App\Http\Controllers\publico\inicio::class,'index']);
 
-Route::middleware(['auth:sanctum', 'verified','validaPermisoModulo'])->get('menu', function () {
-    return "hola";
-})->name('menu');
+Route::middleware(['auth:sanctum', 'verified','validaPermisoModulo'])->get('menu', [App\Http\Controllers\modulo\menu\principal::class,'index'])->name('menu');
 
-Route::middleware(['auth:sanctum', 'verified','validaPermisoModulo'])->get('gestion', function () {
-    return "hola";
-})->name('gestion');
+Route::middleware(['auth:sanctum', 'verified','validaPermisoModulo'])->get('gestion',[App\Http\Controllers\modulo\gestion\principal::class,'index'])->name('gestion');
 
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/cliente', function () {

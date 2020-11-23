@@ -7,7 +7,7 @@
                     </div>
                 <div class="card-footer bg-transparent border-info text-center textinfo">
                 
-                    <a href="{{ route($ruta) }}" class="btn btn-info btn-lg btn-block"><i class="fas fa-sign-in-alt"></i> Ingresar</a></div>
+                    <a href="{{ url($ruta) }}" class="btn btn-info btn-lg btn-block"><i class="fas fa-sign-in-alt"></i> Ingresar</a></div>
                    
                 </div>
 </div>

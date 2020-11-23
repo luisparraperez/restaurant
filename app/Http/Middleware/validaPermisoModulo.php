@@ -25,6 +25,8 @@ class validaPermisoModulo
             {
                 if ($moduloUrl==$modulosConPermiso[$i]->ruta){
                     $bandera=true;
+                    auth()->user()->modulo_actual_id=$modulosConPermiso[$i]->id;
+                    auth()->user()->modulo_actual_descripcion=$modulosConPermiso[$i]->descripcion;
                 }
             }
 
