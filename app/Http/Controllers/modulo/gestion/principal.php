@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 class principal extends Controller
 {
     public function index(){
-        $vista=view('modulo.gestion.index');
-        return view('administracion.masterModulo',['vista'=>$vista]);
+        $data=['usuarios'=>50,'modulos'=>77,'menus'=>100];
+        return view('modulo.gestion.index',['data'=>$data]);
     }
 }

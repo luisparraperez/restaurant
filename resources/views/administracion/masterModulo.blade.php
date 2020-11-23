@@ -15,7 +15,9 @@
         @include('layouts.base.menu')
         </div>
         <div  class="col-sm-9 col-md-9 col-lg-10 col-xl-10" style="padding-top: 50px;">
-            @include('modulo.gestion.index')
+            @section('contenido')
+
+            @show
         </div>
     </div>
 </div>
